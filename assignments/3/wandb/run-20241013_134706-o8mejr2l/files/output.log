@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 174, in <module>
+    best_model.fit(X_train,y_train,X_val = X_val ,Y_val = y_val)
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 124, in fit
+    dW, db = self.backward_propagation(X[i:i+1], Y[i:i+1], activations, Zs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 89, in backward_propagation
+    db_i = np.sum(dZ, axis=0, keepdims=True) / m  # Shape: (1, units_in_layer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\fromnumeric.py", line 2172, in _sum_dispatcher
+    def _sum_dispatcher(a, axis=None, dtype=None, out=None, keepdims=None,
+
+KeyboardInterrupt

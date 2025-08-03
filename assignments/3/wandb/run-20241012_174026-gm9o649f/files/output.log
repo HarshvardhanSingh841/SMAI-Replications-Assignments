@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_2.py", line 111, in <module>
+    output_size=Y_train.shape[1],  # Output should match one-hot encoded dimension
+                ~~~~~~~~~~~~~^^^
+IndexError: tuple index out of range

@@ -1,0 +1,21 @@
+{"time":"2024-10-12T21:39:02.0042046+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T21:39:02.0042046+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Dell\\Documents\\GitHub\\smai-m24-assignments-HarshvardhanSingh841\\assignments\\3\\wandb\\run-20241012_213901-ziwjvgw1\\logs\\debug-core.log"}
+{"time":"2024-10-12T21:39:02.0118068+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-12T21:39:02.0308684+05:30","level":"INFO","msg":"created new stream","id":"ziwjvgw1"}
+{"time":"2024-10-12T21:39:02.0313733+05:30","level":"INFO","msg":"stream: started","id":"ziwjvgw1"}
+{"time":"2024-10-12T21:39:02.0313733+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ziwjvgw1"}}
+{"time":"2024-10-12T21:39:02.0313733+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ziwjvgw1"}}
+{"time":"2024-10-12T21:39:02.0313733+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ziwjvgw1"}}
+{"time":"2024-10-12T21:39:02.3724335+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T21:39:02.3732759+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T21:39:03.9930165+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T21:39:03.9976262+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T21:39:04.2697287+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-12T21:39:04.2698625+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-12T21:39:04.2698625+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-12T21:39:05.1033053+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T21:39:06.6842376+05:30","level":"INFO","msg":"stream: closing","id":"ziwjvgw1"}
+{"time":"2024-10-12T21:39:06.6842376+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"ziwjvgw1"}}
+{"time":"2024-10-12T21:39:06.6842376+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ziwjvgw1"}}
+{"time":"2024-10-12T21:39:06.6842376+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"ziwjvgw1"}}
+{"time":"2024-10-12T21:39:06.6842376+05:30","level":"INFO","msg":"stream: closed","id":"ziwjvgw1"}

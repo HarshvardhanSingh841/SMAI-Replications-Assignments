@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 74, in <module>
+    mlp.fit(X_train, y_train, epochs=1000, validation_data=(X_val, y_val))
+TypeError: MLPRegressor.fit() got an unexpected keyword argument 'epochs'

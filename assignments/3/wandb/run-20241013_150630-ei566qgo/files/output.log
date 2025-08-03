@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 255, in <module>
+    model_bce.fit(X_train, y_train, loss_function='bce')
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 400, in fit
+    dW, db = self.backward_propagation(X[i:i+1], Y[i:i+1], activations, Zs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 360, in backward_propagation
+    dZ = dA  # The output layer's derivative is directly dA
+         ^^
+UnboundLocalError: cannot access local variable 'dA' where it is not associated with a value

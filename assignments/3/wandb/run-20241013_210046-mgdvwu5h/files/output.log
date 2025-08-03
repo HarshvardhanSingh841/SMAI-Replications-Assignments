@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_4.py", line 206, in <module>
+    best_model.fit(X_train, y_train, X_val=X_val, Y_val=y_val)
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLP.py", line 126, in fit
+    Y_encoded = self.one_hot_encode1(Y, self.output_size)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MLPClassifier.one_hot_encode1() takes 2 positional arguments but 3 were given

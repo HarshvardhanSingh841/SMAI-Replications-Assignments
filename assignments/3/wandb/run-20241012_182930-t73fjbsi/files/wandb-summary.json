@@ -1,0 +1,1 @@
+{"Train Accuracy":0.6181619256017505,"_wandb":{"runtime":1},"Epoch":500,"Validation Recall":0.3311188811188811,"_runtime":1.3422637,"Validation Loss":0.9483806315242893,"Validation Precision":0.3455345911949686,"Validation F1 Score":0.33239598278335725,"_timestamp":1.728737971858832e+09,"Validation Accuracy":0.6200873362445415,"Train Loss":0.9997894214831023,"_step":2000}

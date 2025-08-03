@@ -1,0 +1,21 @@
+{"time":"2024-10-13T16:37:45.6686039+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-13T16:37:45.6686039+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Dell\\Documents\\GitHub\\smai-m24-assignments-HarshvardhanSingh841\\assignments\\3\\wandb\\run-20241013_163745-zicsfbri\\logs\\debug-core.log"}
+{"time":"2024-10-13T16:37:45.675821+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-13T16:37:45.692886+05:30","level":"INFO","msg":"created new stream","id":"zicsfbri"}
+{"time":"2024-10-13T16:37:45.692886+05:30","level":"INFO","msg":"stream: started","id":"zicsfbri"}
+{"time":"2024-10-13T16:37:45.692886+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"zicsfbri"}}
+{"time":"2024-10-13T16:37:45.692886+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"zicsfbri"}}
+{"time":"2024-10-13T16:37:45.692886+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"zicsfbri"}}
+{"time":"2024-10-13T16:37:46.0554175+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-13T16:37:46.0565657+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-13T16:37:52.97551+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-13T16:37:52.98048+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-13T16:37:53.2482857+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-13T16:37:53.2482857+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-13T16:37:53.2482857+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-13T16:37:54.0985794+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-13T16:37:55.6256193+05:30","level":"INFO","msg":"stream: closing","id":"zicsfbri"}
+{"time":"2024-10-13T16:37:55.6256193+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"zicsfbri"}}
+{"time":"2024-10-13T16:37:55.6256193+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"zicsfbri"}}
+{"time":"2024-10-13T16:37:55.6256193+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"zicsfbri"}}
+{"time":"2024-10-13T16:37:55.6256193+05:30","level":"INFO","msg":"stream: closed","id":"zicsfbri"}

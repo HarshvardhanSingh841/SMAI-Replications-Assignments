@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 255, in <module>
+    model_bce.fit(X_train, y_train, loss_function='bce')
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 378, in fit
+    activations, Zs = self.forward_propagation(X[i:i+1])  # Single example
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 284, in forward_propagation
+    A = self.sigmoid(Z)  # Sigmoid activation for output
+        ^^^^^^^^^^^^
+AttributeError: 'MLPLogistic' object has no attribute 'sigmoid'

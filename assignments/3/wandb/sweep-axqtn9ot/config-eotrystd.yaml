@@ -1,0 +1,12 @@
+wandb_version: 1
+
+activation_function:
+  value: linear
+hidden_layers:
+  value:
+  - 18
+  - 9
+learning_rate:
+  value: 0.09004206678197135
+optimizer:
+  value: mini_batch

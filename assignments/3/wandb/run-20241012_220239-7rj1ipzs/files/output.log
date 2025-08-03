@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_2.py", line 184, in <module>
+    print(f"Test Accuracy: {best_model.calculate_accuracy(Y_test, Y_test_pred)}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLP.py", line 204, in calculate_accuracy
+    Y_pred_decoded = self.decode_predictions(Y_pred)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLP.py", line 251, in decode_predictions
+    return np.argmax(Y_pred, axis=1) + 3  # Add 3 to return to the original label range (3-8)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\fromnumeric.py", line 1229, in argmax
+    return _wrapfunc(a, 'argmax', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+numpy.exceptions.AxisError: axis 1 is out of bounds for array of dimension 1

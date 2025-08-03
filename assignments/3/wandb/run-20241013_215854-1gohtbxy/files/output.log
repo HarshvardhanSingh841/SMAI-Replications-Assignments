@@ -1,0 +1,13 @@
+Test Accuracy: 0.6086956521739131
+Precision: 0.34941176470588237, Recall: 0.36350245499181666, F1 Score: 0.35604464007825354
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_2.py", line 201, in <module>
+    predicted_classes = np.argmax(Y_test_pred, axis=1)   # +1 if your classes are from 1 to 8
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\fromnumeric.py", line 1229, in argmax
+    return _wrapfunc(a, 'argmax', axis=axis, out=out, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\fromnumeric.py", line 59, in _wrapfunc
+    return bound(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^
+numpy.exceptions.AxisError: axis 1 is out of bounds for array of dimension 1

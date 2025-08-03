@@ -1,0 +1,12 @@
+wandb_version: 1
+
+activation_function:
+  value: sigmoid
+hidden_layers:
+  value:
+  - 9
+  - 18
+learning_rate:
+  value: 0.1
+optimizer:
+  value: sgd

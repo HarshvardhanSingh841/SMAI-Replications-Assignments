@@ -1,0 +1,22 @@
+{"time":"2024-10-12T18:28:15.6550563+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T18:28:15.6555605+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Dell\\Documents\\GitHub\\smai-m24-assignments-HarshvardhanSingh841\\assignments\\3\\wandb\\run-20241012_182815-uaprd4fh\\logs\\debug-core.log"}
+{"time":"2024-10-12T18:28:15.6734957+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-12T18:28:15.6969001+05:30","level":"INFO","msg":"created new stream","id":"uaprd4fh"}
+{"time":"2024-10-12T18:28:15.6969001+05:30","level":"INFO","msg":"stream: started","id":"uaprd4fh"}
+{"time":"2024-10-12T18:28:15.6969001+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"uaprd4fh"}}
+{"time":"2024-10-12T18:28:15.6969001+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"uaprd4fh"}}
+{"time":"2024-10-12T18:28:15.6969001+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"uaprd4fh"}}
+{"time":"2024-10-12T18:28:16.102222+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T18:28:16.104455+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T18:28:22.2383104+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T18:28:22.993555+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T18:28:23.2890432+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-12T18:28:23.2890432+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-12T18:28:23.2890432+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-12T18:28:23.9594275+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T18:28:25.782937+05:30","level":"INFO","msg":"stream: closing","id":"uaprd4fh"}
+{"time":"2024-10-12T18:28:25.782937+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"uaprd4fh"}}
+{"time":"2024-10-12T18:28:25.782937+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"uaprd4fh"}}
+{"time":"2024-10-12T18:28:25.782937+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"uaprd4fh"}}
+{"time":"2024-10-12T18:28:25.7835607+05:30","level":"INFO","msg":"stream: closed","id":"uaprd4fh"}
+{"time":"2024-10-12T18:28:27.9916775+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

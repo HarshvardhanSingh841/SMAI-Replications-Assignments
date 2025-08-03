@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 75, in <module>
+    mlp.fit(X_train, y_train, X_val=X_val, Y_val=y_val ,early_stopping = True , patience = 50)
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 129, in fit
+    dW, db = self.backward_propagation(X, Y, activations, Zs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 76, in backward_propagation
+    dA = activations[-1] - Y  # Shape: (m, 1) for regression output
+         ~~~~~~~~~~~~~~~~^~~
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 2171, in __array_ufunc__
+    return arraylike.array_ufunc(self, ufunc, method, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\arraylike.py", line 276, in array_ufunc
+    result = maybe_dispatch_ufunc_to_dunder_op(self, ufunc, method, *inputs, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "ops_dispatch.pyx", line 113, in pandas._libs.ops_dispatch.maybe_dispatch_ufunc_to_dunder_op
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\ops\common.py", line 76, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\arraylike.py", line 198, in __rsub__
+    return self._arith_method(other, roperator.rsub)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 6135, in _arith_method
+    return base.IndexOpsMixin._arith_method(self, other, op)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\base.py", line 1384, in _arith_method
+    return self._construct_result(result, name=res_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 6231, in _construct_result
+    out = self._constructor(result, index=self.index, dtype=dtype, copy=False)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 584, in __init__
+    data = sanitize_array(data, index, dtype, copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\construction.py", line 659, in sanitize_array
+    subarr = _sanitize_ndim(subarr, data, dtype, index, allow_2d=allow_2d)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\construction.py", line 718, in _sanitize_ndim
+    raise ValueError(
+ValueError: Data must be 1-dimensional, got ndarray of shape (404, 404) instead

@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 74, in <module>
+    mlp.fit(X_train, y_train, epochs=1000, validation_data=(X_val, y_val))
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLP.py", line 441, in fit
+    X, Y = X[indices], Y[indices]
+                       ~^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 1153, in __getitem__
+    return self._get_with(key)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\series.py", line 1180, in _get_with
+    return self.loc[key]
+           ~~~~~~~~^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 1420, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 1360, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexing.py", line 1558, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 6200, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\indexes\base.py", line 6252, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: '[18, 390, 68, 336, 362, 63, 173, 69, 101, 86, 39, 281, 274, 218, 78, 30, 140, 132, 70, 245, 278, 11, 392, 55, 75, 316, 371, 268, 22, 234, 271, 195, 73, 204, 137, 172, 84, 90, 395, 351, 307, 388, 255, 381, 0, 375, 203, 79, 320, 76, 77, 290, 33, 153, 365, 9, 124, 208, 312, 229, 324, 104, 131, 2, 176, 72, 209, 82, 346, 323, 355, 93, 398, 46, 210] not in index'

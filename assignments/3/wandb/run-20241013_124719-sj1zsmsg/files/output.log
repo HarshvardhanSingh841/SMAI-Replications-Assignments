@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 75, in <module>
+    mlp.fit(X_train, y_train, X_val=X_val, Y_val=y_val ,early_stopping = True , patience = 50)
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 129, in fit
+    dW, db = self.backward_propagation(X, Y, activations, Zs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 92, in backward_propagation
+    dA = np.dot(dZ, self.weights[i].T)  # Shape: (m, units_in_previous_layer)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: shapes (404,404) and (1,32) not aligned: 404 (dim 1) != 1 (dim 0)

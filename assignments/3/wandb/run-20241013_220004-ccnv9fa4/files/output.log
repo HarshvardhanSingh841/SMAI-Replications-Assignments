@@ -1,0 +1,22 @@
+Test Accuracy: 0.6086956521739131
+Precision: 0.34941176470588237, Recall: 0.36350245499181666, F1 Score: 0.35604464007825354
+C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+              precision    recall  f1-score   support
+
+           4       0.00      0.00      0.00         2
+           5       0.65      0.70      0.67        47
+           6       0.60      0.58      0.59        52
+           7       0.50      0.54      0.52        13
+           8       0.00      0.00      0.00         1
+
+    accuracy                           0.61       115
+   macro avg       0.35      0.36      0.36       115
+weighted avg       0.59      0.61      0.60       115
+
+Per-Class Accuracy: [0.         0.70212766 0.57692308 0.53846154 0.        ]
+Classes with low accuracy: [0 4]

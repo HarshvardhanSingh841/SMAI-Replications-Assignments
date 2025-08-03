@@ -1,0 +1,1 @@
+{"_step":2000,"_wandb":{"runtime":2},"Validation Loss":0.9082043759919056,"Epoch":500,"Train Accuracy":0.6105032822757112,"Validation Recall":0.3311188811188811,"_runtime":2.0257726,"Validation Accuracy":0.6200873362445415,"Validation Precision":0.35097801627142117,"Train Loss":0.9795692123158156,"Validation F1 Score":0.3334146341463415,"_timestamp":1.7287378276052516e+09}

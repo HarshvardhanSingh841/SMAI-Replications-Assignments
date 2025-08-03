@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_2.py", line 186, in <module>
+    best_model.fit(X_train, Y_train, X_val=X_val, Y_val=Y_val)
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLP.py", line 126, in fit
+    Y_encoded = self.one_hot_encode(Y)
+                ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: MLPClassifier.one_hot_encode() missing 1 required positional argument: 'num_classes'

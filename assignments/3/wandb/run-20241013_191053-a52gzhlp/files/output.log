@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_4.py", line 80, in <module>
+    autoencoder.train(X_train)
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\Autoencoders\AutoEncoder.py", line 103, in train
+    self.model.fit(X_train, X_train)
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 123, in fit
+    dW, db = self.backward_propagation(X[i:i+1], Y[i:i+1], activations, Zs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 87, in backward_propagation
+    dW_i = np.dot(activations[i].T, dZ) / m  # Shape: (units_in_previous_layer, units_in_layer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\multiarray.py", line 741, in dot
+    @array_function_from_c_func_and_dispatcher(_multiarray_umath.dot)
+
+KeyboardInterrupt

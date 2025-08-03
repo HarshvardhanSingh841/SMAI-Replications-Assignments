@@ -1,0 +1,22 @@
+{"time":"2024-10-12T21:42:26.7701957+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T21:42:26.7707074+05:30","level":"INFO","msg":"created symlink","path":"C:\\Users\\Dell\\Documents\\GitHub\\smai-m24-assignments-HarshvardhanSingh841\\assignments\\3\\wandb\\run-20241012_214226-dxlbmyhx\\logs\\debug-core.log"}
+{"time":"2024-10-12T21:42:26.8122939+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-12T21:42:26.8296328+05:30","level":"INFO","msg":"created new stream","id":"dxlbmyhx"}
+{"time":"2024-10-12T21:42:26.8296328+05:30","level":"INFO","msg":"stream: started","id":"dxlbmyhx"}
+{"time":"2024-10-12T21:42:26.8296328+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"dxlbmyhx"}}
+{"time":"2024-10-12T21:42:26.8296328+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dxlbmyhx"}}
+{"time":"2024-10-12T21:42:26.8296328+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"dxlbmyhx"}}
+{"time":"2024-10-12T21:42:27.187986+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T21:42:27.1886238+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T21:42:34.5526494+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T21:42:34.5567661+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T21:42:34.8188282+05:30","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-12T21:42:34.8188282+05:30","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-12T21:42:34.8188282+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-12T21:42:35.467329+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T21:42:36.9389638+05:30","level":"INFO","msg":"stream: closing","id":"dxlbmyhx"}
+{"time":"2024-10-12T21:42:36.9389638+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"dxlbmyhx"}}
+{"time":"2024-10-12T21:42:36.9389638+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"dxlbmyhx"}}
+{"time":"2024-10-12T21:42:36.9389638+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"dxlbmyhx"}}
+{"time":"2024-10-12T21:42:36.9389638+05:30","level":"INFO","msg":"stream: closed","id":"dxlbmyhx"}
+{"time":"2024-10-12T21:42:39.555435+05:30","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

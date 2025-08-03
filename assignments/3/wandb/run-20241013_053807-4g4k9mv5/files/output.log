@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 74, in <module>
+    mlp.fit(X_train, y_train, epochs=1000, validation_data=(X_val, y_val))
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLP.py", line 452, in fit
+    gradients_w, gradients_b = self.back_propagation(X_batch, Y_batch)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLP.py", line 391, in back_propagation
+    delta = np.dot(deltas[-1], self.weights[i+1].T) * self.activation_derivative(self.layer_outputs[i+1])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: shapes (32,32) and (1,32) not aligned: 32 (dim 1) != 1 (dim 0)

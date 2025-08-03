@@ -1,0 +1,4 @@
+C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py:171: RuntimeWarning: overflow encountered in square
+  loss = np.mean((Y_true - Y_pred) ** 2)  # Mean Squared Error (MSE)
+C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py:85: RuntimeWarning: invalid value encountered in multiply
+  dZ = dA * self.activation_derivative(activations[i+1], self.activation)  # Shape: (m, units_in_layer)

@@ -1,0 +1,10 @@
+Current loss function: <bound method MLPLogistic.binary_cross_entropy_loss of <MLPR.MLPLogistic object at 0x00000261A188F500>>
+Traceback (most recent call last):
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\assignments\3\a3_3.py", line 255, in <module>
+    model_bce.fit(X_train, y_train, loss_function='bce')
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 404, in fit
+    dW, db = self.backward_propagation(X[i:i+1], Y[i:i+1], activations, Zs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dell\Documents\GitHub\smai-m24-assignments-HarshvardhanSingh841\models\MLP\MLPR.py", line 362, in backward_propagation
+    raise ValueError("dA is not initialized! Check loss function assignment.")
+ValueError: dA is not initialized! Check loss function assignment.

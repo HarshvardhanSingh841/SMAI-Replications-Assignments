@@ -1,0 +1,1 @@
+{"Validation MSE":32.75764769108467,"Epoch":1000,"_step":2000,"Validation Loss":32.75764769108467,"Train MSE":33.69617726268366,"Train RMSE":5.80484084731732,"_wandb":{"runtime":1},"Train Loss":33.7042251911037,"Validation R-squared":0.4824418266581866,"_timestamp":1.728806023586335e+09,"_runtime":1.2293436,"Validation RMSE":5.723429713998825,"Train R-squared":0.6121232071500784}
